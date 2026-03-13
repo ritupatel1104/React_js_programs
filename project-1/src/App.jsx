@@ -154,6 +154,100 @@ const App = () => {
 //     "details": "High-capacity power bank with fast charging support."
 //   }
 // ]
+
+
+const icecream_data = [
+  {
+    "image": "",
+    "name": "Vanilla Delight",
+    "ingredients": ["Milk", "Vanilla Extract", "Sugar"],
+    "detail": "Classic creamy vanilla ice cream with a smooth texture and rich flavor.",
+    "toppings": ["Chocolate Syrup", "Almond Flakes"],
+    "price": 120,
+    "delivery_charge": 3
+  },
+  {
+    "image": "",
+    "name": "Chocolate Blast",
+    "ingredients": ["Cocoa", "Cream", "Sugar"],
+    "detail": "Rich chocolate ice cream loaded with deep cocoa flavor.",
+    "toppings": ["Choco Chips", "Brownie Crumbs"],
+    "price": 150,
+    "delivery_charge": 4
+  },
+  {
+    "image": "",
+    "name": "Strawberry Swirl",
+    "ingredients": ["Strawberries", "Milk", "Sugar"],
+    "detail": "Sweet strawberry ice cream with a refreshing fruity swirl.",
+    "toppings": ["Strawberry Sauce", "Whipped Cream"],
+    "price": 140,
+    "delivery_charge": 2
+  },
+  {
+    "image": "",
+    "name": "Mango Magic",
+    "ingredients": ["Mango Pulp", "Cream", "Sugar"],
+    "detail": "Tropical mango ice cream made from ripe juicy mangoes.",
+    "toppings": ["Mango Cubes", "Coconut Flakes"],
+    "price": 160,
+    "delivery_charge": 3
+  },
+  {
+    "image": "",
+    "name": "Cookies & Cream",
+    "ingredients": ["Milk", "Oreo Cookies", "Cream"],
+    "detail": "Smooth vanilla base mixed with crunchy cookie chunks.",
+    "toppings": ["Crushed Cookies", "Chocolate Drizzle"],
+    "price": 170,
+    "delivery_charge": 8
+  },
+  {
+    "image": "",
+    "name": "Pista Paradise",
+    "ingredients": ["Pistachios", "Milk", "Sugar"],
+    "detail": "Traditional pistachio ice cream with nutty richness.",
+    "toppings": ["Pista Crumbles", "Honey Drizzle"],
+    "price": 180,
+    "delivery_charge": 9
+  },
+  {
+    "image": "",
+    "name": "Butterscotch Crunch",
+    "ingredients": ["Butterscotch Syrup", "Milk", "Cream"],
+    "detail": "Creamy butterscotch ice cream with crunchy caramel bits.",
+    "toppings": ["Caramel Sauce", "Butterscotch Chips"],
+    "price": 160,
+    "delivery_charge": 5
+  },
+  {
+    "image": "",
+    "name": "Blackcurrant Bliss",
+    "ingredients": ["Blackcurrant", "Milk", "Sugar"],
+    "detail": "Tangy and sweet blackcurrant ice cream with vibrant flavor.",
+    "toppings": ["Berry Sauce", "Mint Leaves"],
+    "price": 155,
+    "delivery_charge": 8
+  },
+  {
+    "image": "",
+    "name": "Coffee Caramel",
+    "ingredients": ["Coffee", "Cream", "Sugar"],
+    "detail": "Bold coffee ice cream blended with smooth caramel sweetness.",
+    "toppings": ["Caramel Drizzle", "Choco Chips"],
+    "price": 175,
+    "delivery_charge": 6
+  },
+  {
+    "image": "",
+    "name": "Blueberry Dream",
+    "ingredients": ["Blueberries", "Milk", "Sugar"],
+    "detail": "Refreshing blueberry ice cream with natural fruity taste.",
+    "toppings": ["Blueberry Sauce", "Whipped Cream"],
+    "price": 165,
+    "delivery_charge": 4
+  }
+]
   return (
     <>
         {/* <section className='flex flex-wrap gap-6 px-8 py-4 justify-center items-center'>
@@ -168,7 +262,15 @@ const App = () => {
           })}
        </section> */}
 
-        <IceCreamCard />
+        
+           <section className="flex item-center flex-wrap py-4 px-6 justify-center gap-5">
+          {icecream_data.map(function (data) {
+              return <IceCreamCard data={data} />;
+          })}
+       </section> 
+
+          
+       
        
       
     </>
