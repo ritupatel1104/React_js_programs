@@ -15,7 +15,7 @@ const IceCreamCard = ({data}) => {
                 <div className="more flex gap-2 items-center">
                     <span className="text-[14px] bg-rose-400/90 text-green-50 rounded-full px-2 py-1">{data.ingredients[0]}</span>
                     <span className="text-[14px] bg-rose-400/90 text-green-50 rounded-full px-2 py-1">{data.ingredients[1]}</span>
-                    <span className="text-[14px] bg-rose-400/90 text-green-50 rounded-full px-2 py-1">{data.ingredients[3]}</span>
+                    <span className="text-[14px] bg-rose-400/90 text-green-50 rounded-full px-2 py-1">{data.ingredients[2]}</span>
                 </div>
                 <p className='text-xl text-black mb-2 mt-4'>{data.detail}</p>
 
@@ -32,7 +32,7 @@ const IceCreamCard = ({data}) => {
       <p className="flex gap-1 items-center text-[14px] text-gray-600">+${data.delivery_charge} Delivery</p>
    </div>
 
-   <button className="text-[16px] bg-rose-500 text-green-50 rounded-full px-18 py-2 mb-2">
+   <button className="text-[16px] bg-rose-500 text-white rounded-full px-18 py-2 mb-2 active:bg-rose-400/90 active:scale-95 text-2xl font-bold">
       Add to Cart
    </button>
 </div>

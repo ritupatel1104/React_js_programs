@@ -158,7 +158,7 @@ const App = () => {
 
 const icecream_data = [
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/ab/0a/98/ab0a989e949ed584321383eb73d93aea.jpg",
     "name": "Vanilla Delight",
     "ingredients": ["Milk", "Vanilla Extract", "Sugar"],
     "detail": "Classic creamy vanilla ice cream with a smooth texture and rich flavor.",
@@ -167,7 +167,7 @@ const icecream_data = [
     "delivery_charge": 3
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/736x/a1/9e/70/a19e706bd71f1a72939eedcf2d8a000a.jpg",
     "name": "Chocolate Blast",
     "ingredients": ["Cocoa", "Cream", "Sugar"],
     "detail": "Rich chocolate ice cream loaded with deep cocoa flavor.",
@@ -176,7 +176,7 @@ const icecream_data = [
     "delivery_charge": 4
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/736x/74/30/53/7430533205dd29ba8a2c6b67b61e9280.jpg",
     "name": "Strawberry Swirl",
     "ingredients": ["Strawberries", "Milk", "Sugar"],
     "detail": "Sweet strawberry ice cream with a refreshing fruity swirl.",
@@ -185,7 +185,7 @@ const icecream_data = [
     "delivery_charge": 2
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/c0/d7/a8/c0d7a8656023bb6a45d6925c7c7f7017.jpg",
     "name": "Mango Magic",
     "ingredients": ["Mango Pulp", "Cream", "Sugar"],
     "detail": "Tropical mango ice cream made from ripe juicy mangoes.",
@@ -194,7 +194,7 @@ const icecream_data = [
     "delivery_charge": 3
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/736x/51/37/f1/5137f120bc186f9c3f55d3aaa4839124.jpg",
     "name": "Cookies & Cream",
     "ingredients": ["Milk", "Oreo Cookies", "Cream"],
     "detail": "Smooth vanilla base mixed with crunchy cookie chunks.",
@@ -203,7 +203,7 @@ const icecream_data = [
     "delivery_charge": 8
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/ad/3a/3b/ad3a3b1f682dd17ba8b39715e050a8d8.jpg",
     "name": "Pista Paradise",
     "ingredients": ["Pistachios", "Milk", "Sugar"],
     "detail": "Traditional pistachio ice cream with nutty richness.",
@@ -212,7 +212,7 @@ const icecream_data = [
     "delivery_charge": 9
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/c7/bc/2b/c7bc2b30fef8ef5f533a49d726e22412.jpg",
     "name": "Butterscotch Crunch",
     "ingredients": ["Butterscotch Syrup", "Milk", "Cream"],
     "detail": "Creamy butterscotch ice cream with crunchy caramel bits.",
@@ -221,7 +221,7 @@ const icecream_data = [
     "delivery_charge": 5
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/e8/87/94/e8879454df5e329b2ca283ab863c42b7.jpg",
     "name": "Blackcurrant Bliss",
     "ingredients": ["Blackcurrant", "Milk", "Sugar"],
     "detail": "Tangy and sweet blackcurrant ice cream with vibrant flavor.",
@@ -230,7 +230,7 @@ const icecream_data = [
     "delivery_charge": 8
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/7f/5f/f5/7f5ff57fee4db5125ed4c9149ae1ca96.jpg",
     "name": "Coffee Caramel",
     "ingredients": ["Coffee", "Cream", "Sugar"],
     "detail": "Bold coffee ice cream blended with smooth caramel sweetness.",
@@ -239,7 +239,7 @@ const icecream_data = [
     "delivery_charge": 6
   },
   {
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/22/48/55/22485538f9c160fb0b5bac0cb47ffda6.jpg",
     "name": "Blueberry Dream",
     "ingredients": ["Blueberries", "Milk", "Sugar"],
     "detail": "Refreshing blueberry ice cream with natural fruity taste.",
