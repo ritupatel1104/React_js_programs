@@ -23,7 +23,7 @@ const Offer = () => {
             <br />
             Explicabo et alias tenetur facilis.
         </p>
-        <button className="bg-[#583101] flex items-center justify-center text-white px-6 py-3 my-4 gap-x-4 active:scale-95  active:rounded-md">
+        <button className="bg-[#583101] flex items-center justify-center text-white px-6 py-3 my-4 gap-x-4 rounded-3xl active:scale-95  active:rounded-md">
                    Show Now <ArrowRight />
                  </button>
 

@@ -5,6 +5,7 @@ import Product from './Pages/Product'
 import { Route, Routes } from 'react-router-dom'
 import NitecDashboard from './Pages/NitecDashboard'
 import Navbar from './Layout/Navbar'
+import Footer from './Layout/Footer'
 const App = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const App = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/product/:id' element={<Product />}/>
       </Routes>   
-
+    <Footer />
       
     {/* <NitecDashboard /> */}
       
