@@ -5,7 +5,7 @@ const DiscountBar = () => {
     <>
       <section className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto px-4 py-6 gap-8">
         {/* left */}
-        <div className="bg-gray-100 relative overflow-hidden p-8">
+        <div className="bg-gray-100 relative overflow-hidden rounded-2xl p-8">
           <h4 className="text-xl text-[#ff9500] font-semibold">
             Flat 20% Discount
           </h4>
@@ -13,13 +13,11 @@ const DiscountBar = () => {
             Men's Latest <br />
             Collection
           </h1>
-          <p className="py-4 leading-normal text-gray-500 ">
-            Lorem ipsum dolor sit amet consecteturbr   <br />
-            
-
-            adipisicing elit. Voluptatibus doloribus.
+          <p className="py-4 leading-normal text-xl text-gray-500 ">
+            Lorem ipsum dolor sit amet <br /> consectetur   
+            adipisicing elit. <br />Voluptatibus doloribus.
           </p>
-          <button className="bg-[#ff9500]/90 py-4 px-8 flex gap-4 text-lg items-center mt-10">
+          <button className="bg-[#ff9500]/90 py-4 px-8 flex gap-4 text-lg items-center rounded-4xl mt-10">
             Show Now <ArrowRight />
           </button>
 
@@ -31,7 +29,7 @@ const DiscountBar = () => {
         </div>
 
         {/* right */}
-        <div className="bg-[#ff9500]/90 relative overflow-hidden p-8">
+        <div className="bg-[#ff9500]/90 relative overflow-hidden p-8 rounded-2xl">
           <h4 className="text-xl text-[#582f0e] font-semibold">
             Flat 25% Discount
           </h4>
@@ -39,11 +37,11 @@ const DiscountBar = () => {
             Women's Latest <br />
             Collection
           </h1>
-          <p className="py-4 leading-normal text-gray-500 ">
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Voluptatibus doloribus.
+          <p className="py-4 leading-normal text-xl text-gray-500 ">
+             Lorem ipsum dolor sit amet <br /> consectetur   
+            adipisicing elit. <br />Voluptatibus doloribus.
           </p>
-          <button className="bg-[#582f0e] py-4 px-8 flex gap-4 text-lg items-center mt-10 text-white">
+          <button className="bg-[#582f0e] py-4 px-8 flex gap-4 text-lg items-center mt-10 text-white rounded-4xl">
             Show Now <ArrowRight />
           </button>
 

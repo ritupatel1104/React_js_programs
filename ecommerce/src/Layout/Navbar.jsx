@@ -1,6 +1,7 @@
 import React from 'react'
 import { Search, Heart, ShoppingBag, User2, Menu, X } from "lucide-react"
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -19,19 +20,38 @@ const Navbar = () => {
             </div>
 
             {/* Links */}
-            <ul className='flex items-center justify-center gap-x-4 text-lg font-normal'>
-                <li><a href="">Home</a></li>
-                <li><a href="">Collection</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+            <ul className='flex items-center justify-center gap-x-4 text-lg font-normal '>
+                <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                    <Link to="/">Home</Link>
+                </li>
+                  <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                    <Link to="/collection">Collection</Link>
+                </li>
+                <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                   <Link to="/shop">Shop</Link>
+                </li>
+                <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                    <Link to="/about">About</Link>
+                </li>
+                <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                    <Link to="/contact">Contact</Link>
+                </li>
             </ul>
 
             {/* icons */}
             <div className='flex items-center justify-center gap-x-6'>
-                <Search strokeWidth={1} />
-                <Heart strokeWidth={1} />
-                <ShoppingBag strokeWidth={1} />
-                <User2 strokeWidth={1} />
+                <Search strokeWidth={1}
+                className="transition-colors duration-200 hover:stroke-blue-500 cursor-pointer"
+                 />
+                <Heart strokeWidth={1} 
+                className="transition-colors duration-300 hover:fill-red-500 hover:stroke-red-500 cursor-pointer" 
+                />
+                <ShoppingBag strokeWidth={1}
+                className="transition-colors duration-200 hover:stroke-emerald-700 hover:fill-emerald-50 text-gray-600"
+                />
+                <User2 strokeWidth={1}
+                className="transition-colors duration-200 hover:stroke-purple-900 cursor-pointer"
+                />
             </div>
         </nav>
 
@@ -71,10 +91,21 @@ const Navbar = () => {
 
                     {/* Links */}
                     <ul className='flex flex-col items-center justify-center gap-y-12 text-3xl font-semibold'>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Collection</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                            <Link to="/">Home</Link>
+                        </li>
+                         <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                           <Link to="/collection">Collection</Link>
+                         </li>
+                         <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                            <Link to="/shop">Shop</Link>
+                         </li>
+                         <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                            <Link to="/about">About</Link>
+                          </li>
+                         <li className='hover:font-bold active:underline active:underline-offset-8 active:decoration-2 active:decoration-[#965a32]'>
+                            <Link to="/contact">Contact</Link>
+                         </li>
                     </ul>
                 </div>
             </section>
