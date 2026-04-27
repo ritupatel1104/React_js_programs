@@ -11,10 +11,11 @@ body{
 
 
   /* Product bg use below code */
-  /* background-color: #a1838ebb;
-  color: rgb(0, 0, 0);*/
+  background-color: #a1838ebb;
+  color: rgb(0, 0, 0);
 
   /* Icecream card background use */
-  background-image: url("https://i.pinimg.com/736x/0f/63/5c/0f635ccca4ecb2dfc66d1a515f6e0cfd.jpg");
-  color: black;
+
+  /* background-image: url("https://i.pinimg.com/736x/0f/63/5c/0f635ccca4ecb2dfc66d1a515f6e0cfd.jpg");
+  color: black; */
 } 

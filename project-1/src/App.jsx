@@ -72,182 +72,182 @@ const App = () => {
 
 
 
-//  const product = [
-//   {
-//     "productPhoto": "https://i.pinimg.com/1200x/1a/18/3a/1a183abde3d12d95e5886ae7903cfed7.jpg",
-//     "productName": "Wireless Headphones",
-//     "logo": "https://i.pinimg.com/736x/31/33/1c/31331c8652a2ba996ce2860f7ced940d.jpg",
-//     "price": 2499,
-//     "tagline": "Feel the music wirelessly",
-//     "details": "High-quality wireless headphones with noise cancellation and 20-hour battery life."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/e9/3b/c5/e93bc5fb27cc995951e86bd0b0e82307.jpg",
-//     "productName": "Smart Watch Pro",
-//     "logo":"https://i.pinimg.com/736x/d1/c3/71/d1c3716580021acff7043d767e72a0eb.jpg",
-//     "price": 3999,
-//     "tagline": "Your fitness partner",
-//     "details": "Track heart rate, steps, and sleep with this stylish smartwatch."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/3c/f5/fc/3cf5fc20f53be9fcf58e3ec0b2b44331.jpg",
-//     "productName": "UltraBook X",
-//     "logo":"https://i.pinimg.com/1200x/c8/1c/7e/c81c7e3eee5e8ccee02a910701a17021.jpg",
-//     "price": 65999,
-//     "tagline": "Power meets portability",
-//     "details": "Lightweight laptop with powerful performance and long battery life."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/1200x/aa/5e/b5/aa5eb5a473f10d73bbc621d16e24c5a6.jpg",
-//     "productName": "Smartphone Max",
-//     "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
-//     "price": 29999,
-//     "tagline": "Experience speed",
-//     "details": "Fast processor smartphone with stunning display and great camera."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/64/14/99/64149999d340b2b1ee0b7e802c936f29.jpg",
-//     "productName": "Bluetooth Speaker",
-//     "logo":"https://i.pinimg.com/736x/31/33/1c/31331c8652a2ba996ce2860f7ced940d.jpg",
-//     "price": 1999,
-//     "tagline": "Sound that moves with you",
-//     "details": "Portable speaker with deep bass and 10-hour playtime."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/1200x/57/23/56/572356f77cb0e0e7449da32255774ee0.jpg",
-//     "productName": "Digital Camera",
-//     "logo":"https://i.pinimg.com/736x/30/91/1d/30911d93df147875018f543fc5871dc2.jpg",
-//     "price": 45999,
-//     "tagline": "Capture every moment",
-//     "details": "High-resolution camera with 4K video recording capability."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/11/42/4f/11424fd7e70c8321f908ef4e1f1e8034.jpg",
-//     "productName": "Gaming Mouse",
-//     "logo":"https://i.pinimg.com/1200x/03/d6/a4/03d6a40f8be9403b3d20949d84bbb1d1.jpg",
-//     "price": 1499,
-//     "tagline": "Precision in every move",
-//     "details": "Ergonomic gaming mouse with customizable DPI and RGB lighting."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/79/7c/2d/797c2dcb9dffa76d83f2a11a7b33a8ba.jpg",
-//     "productName": "Mechanical Keyboard",
-//     "logo":"https://i.pinimg.com/1200x/03/d6/a4/03d6a40f8be9403b3d20949d84bbb1d1.jpg",
-//     "price": 3499,
-//     "tagline": "Type like a pro",
-//     "details": "Durable mechanical keyboard with tactile switches and backlight."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/736x/43/ae/68/43ae680bf945a2178ec5dc8677de43e6.jpg",
-//     "productName": "Tablet Plus",
-//     "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
-//     "price": 18999,
-//     "tagline": "Work and play anywhere",
-//     "details": "Slim tablet perfect for entertainment, reading, and productivity."
-//   },
-//   {
-//     "productPhoto": "https://i.pinimg.com/1200x/18/ea/c3/18eac332efdd0d342546a845eaef44e1.jpg",
-//     "productName":  "Wireless Power Bank 5000mAh",
-//     "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
-//     "price": 1299,
-//     "tagline": "Charge on the go",
-//     "details": "High-capacity power bank with fast charging support."
-//   }
-// ]
-
-
-const icecream_data = [
+ const product = [
   {
-    "image": "https://i.pinimg.com/1200x/ab/0a/98/ab0a989e949ed584321383eb73d93aea.jpg",
-    "name": "Vanilla Delight",
-    "ingredients": ["Milk", "Vanilla Extract", "Sugar"],
-    "detail": "Classic creamy vanilla ice cream with a smooth texture and rich flavor.",
-    "toppings": ["Chocolate Syrup", "Almond Flakes"],
-    "price": 120,
-    "delivery_charge": 3
+    "productPhoto": "https://i.pinimg.com/1200x/1a/18/3a/1a183abde3d12d95e5886ae7903cfed7.jpg",
+    "productName": "Wireless Headphones",
+    "logo": "https://i.pinimg.com/736x/31/33/1c/31331c8652a2ba996ce2860f7ced940d.jpg",
+    "price": 2499,
+    "tagline": "Feel the music wirelessly",
+    "details": "High-quality wireless headphones with noise cancellation and 20-hour battery life."
   },
   {
-    "image": "https://i.pinimg.com/736x/a1/9e/70/a19e706bd71f1a72939eedcf2d8a000a.jpg",
-    "name": "Chocolate Blast",
-    "ingredients": ["Cocoa", "Cream", "Sugar"],
-    "detail": "Rich chocolate ice cream loaded with deep cocoa flavor.",
-    "toppings": ["Choco Chips", "Brownie Crumbs"],
-    "price": 150,
-    "delivery_charge": 4
+    "productPhoto": "https://i.pinimg.com/736x/e9/3b/c5/e93bc5fb27cc995951e86bd0b0e82307.jpg",
+    "productName": "Smart Watch Pro",
+    "logo":"https://i.pinimg.com/736x/d1/c3/71/d1c3716580021acff7043d767e72a0eb.jpg",
+    "price": 3999,
+    "tagline": "Your fitness partner",
+    "details": "Track heart rate, steps, and sleep with this stylish smartwatch."
   },
   {
-    "image": "https://i.pinimg.com/736x/74/30/53/7430533205dd29ba8a2c6b67b61e9280.jpg",
-    "name": "Strawberry Swirl",
-    "ingredients": ["Strawberries", "Milk", "Sugar"],
-    "detail": "Sweet strawberry ice cream with a refreshing fruity swirl.",
-    "toppings": ["Strawberry Sauce", "Whipped Cream"],
-    "price": 140,
-    "delivery_charge": 2
+    "productPhoto": "https://i.pinimg.com/736x/3c/f5/fc/3cf5fc20f53be9fcf58e3ec0b2b44331.jpg",
+    "productName": "UltraBook X",
+    "logo":"https://i.pinimg.com/1200x/c8/1c/7e/c81c7e3eee5e8ccee02a910701a17021.jpg",
+    "price": 65999,
+    "tagline": "Power meets portability",
+    "details": "Lightweight laptop with powerful performance and long battery life."
   },
   {
-    "image": "https://i.pinimg.com/1200x/c0/d7/a8/c0d7a8656023bb6a45d6925c7c7f7017.jpg",
-    "name": "Mango Magic",
-    "ingredients": ["Mango Pulp", "Cream", "Sugar"],
-    "detail": "Tropical mango ice cream made from ripe juicy mangoes.",
-    "toppings": ["Mango Cubes", "Coconut Flakes"],
-    "price": 160,
-    "delivery_charge": 3
+    "productPhoto": "https://i.pinimg.com/1200x/aa/5e/b5/aa5eb5a473f10d73bbc621d16e24c5a6.jpg",
+    "productName": "Smartphone Max",
+    "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
+    "price": 29999,
+    "tagline": "Experience speed",
+    "details": "Fast processor smartphone with stunning display and great camera."
   },
   {
-    "image": "https://i.pinimg.com/736x/51/37/f1/5137f120bc186f9c3f55d3aaa4839124.jpg",
-    "name": "Cookies & Cream",
-    "ingredients": ["Milk", "Oreo Cookies", "Cream"],
-    "detail": "Smooth vanilla base mixed with crunchy cookie chunks.",
-    "toppings": ["Crushed Cookies", "Chocolate Drizzle"],
-    "price": 170,
-    "delivery_charge": 8
+    "productPhoto": "https://i.pinimg.com/736x/64/14/99/64149999d340b2b1ee0b7e802c936f29.jpg",
+    "productName": "Bluetooth Speaker",
+    "logo":"https://i.pinimg.com/736x/31/33/1c/31331c8652a2ba996ce2860f7ced940d.jpg",
+    "price": 1999,
+    "tagline": "Sound that moves with you",
+    "details": "Portable speaker with deep bass and 10-hour playtime."
   },
   {
-    "image": "https://i.pinimg.com/1200x/ad/3a/3b/ad3a3b1f682dd17ba8b39715e050a8d8.jpg",
-    "name": "Pista Paradise",
-    "ingredients": ["Pistachios", "Milk", "Sugar"],
-    "detail": "Traditional pistachio ice cream with nutty richness.",
-    "toppings": ["Pista Crumbles", "Honey Drizzle"],
-    "price": 180,
-    "delivery_charge": 9
+    "productPhoto": "https://i.pinimg.com/1200x/57/23/56/572356f77cb0e0e7449da32255774ee0.jpg",
+    "productName": "Digital Camera",
+    "logo":"https://i.pinimg.com/736x/30/91/1d/30911d93df147875018f543fc5871dc2.jpg",
+    "price": 45999,
+    "tagline": "Capture every moment",
+    "details": "High-resolution camera with 4K video recording capability."
   },
   {
-    "image": "https://i.pinimg.com/1200x/c7/bc/2b/c7bc2b30fef8ef5f533a49d726e22412.jpg",
-    "name": "Butterscotch Crunch",
-    "ingredients": ["Butterscotch Syrup", "Milk", "Cream"],
-    "detail": "Creamy butterscotch ice cream with crunchy caramel bits.",
-    "toppings": ["Caramel Sauce", "Butterscotch Chips"],
-    "price": 160,
-    "delivery_charge": 5
+    "productPhoto": "https://i.pinimg.com/736x/11/42/4f/11424fd7e70c8321f908ef4e1f1e8034.jpg",
+    "productName": "Gaming Mouse",
+    "logo":"https://i.pinimg.com/1200x/03/d6/a4/03d6a40f8be9403b3d20949d84bbb1d1.jpg",
+    "price": 1499,
+    "tagline": "Precision in every move",
+    "details": "Ergonomic gaming mouse with customizable DPI and RGB lighting."
   },
   {
-    "image": "https://i.pinimg.com/1200x/e8/87/94/e8879454df5e329b2ca283ab863c42b7.jpg",
-    "name": "Blackcurrant Bliss",
-    "ingredients": ["Blackcurrant", "Milk", "Sugar"],
-    "detail": "Tangy and sweet blackcurrant ice cream with vibrant flavor.",
-    "toppings": ["Berry Sauce", "Mint Leaves"],
-    "price": 155,
-    "delivery_charge": 8
+    "productPhoto": "https://i.pinimg.com/736x/79/7c/2d/797c2dcb9dffa76d83f2a11a7b33a8ba.jpg",
+    "productName": "Mechanical Keyboard",
+    "logo":"https://i.pinimg.com/1200x/03/d6/a4/03d6a40f8be9403b3d20949d84bbb1d1.jpg",
+    "price": 3499,
+    "tagline": "Type like a pro",
+    "details": "Durable mechanical keyboard with tactile switches and backlight."
   },
   {
-    "image": "https://i.pinimg.com/1200x/7f/5f/f5/7f5ff57fee4db5125ed4c9149ae1ca96.jpg",
-    "name": "Coffee Caramel",
-    "ingredients": ["Coffee", "Cream", "Sugar"],
-    "detail": "Bold coffee ice cream blended with smooth caramel sweetness.",
-    "toppings": ["Caramel Drizzle", "Choco Chips"],
-    "price": 175,
-    "delivery_charge": 6
+    "productPhoto": "https://i.pinimg.com/736x/43/ae/68/43ae680bf945a2178ec5dc8677de43e6.jpg",
+    "productName": "Tablet Plus",
+    "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
+    "price": 18999,
+    "tagline": "Work and play anywhere",
+    "details": "Slim tablet perfect for entertainment, reading, and productivity."
   },
   {
-    "image": "https://i.pinimg.com/1200x/22/48/55/22485538f9c160fb0b5bac0cb47ffda6.jpg",
-    "name": "Blueberry Dream",
-    "ingredients": ["Blueberries", "Milk", "Sugar"],
-    "detail": "Refreshing blueberry ice cream with natural fruity taste.",
-    "toppings": ["Blueberry Sauce", "Whipped Cream"],
-    "price": 165,
-    "delivery_charge": 4
+    "productPhoto": "https://i.pinimg.com/1200x/18/ea/c3/18eac332efdd0d342546a845eaef44e1.jpg",
+    "productName":  "Wireless Power Bank 5000mAh",
+    "logo":"https://i.pinimg.com/736x/60/6b/c0/606bc0717982547e555a514b479365a0.jpg",
+    "price": 1299,
+    "tagline": "Charge on the go",
+    "details": "High-capacity power bank with fast charging support."
   }
 ]
+
+
+// const icecream_data = [
+//   {
+//     "image": "https://i.pinimg.com/1200x/ab/0a/98/ab0a989e949ed584321383eb73d93aea.jpg",
+//     "name": "Vanilla Delight",
+//     "ingredients": ["Milk", "Vanilla Extract", "Sugar"],
+//     "detail": "Classic creamy vanilla ice cream with a smooth texture and rich flavor.",
+//     "toppings": ["Chocolate Syrup", "Almond Flakes"],
+//     "price": 120,
+//     "delivery_charge": 3
+//   },
+//   {
+//     "image": "https://i.pinimg.com/736x/a1/9e/70/a19e706bd71f1a72939eedcf2d8a000a.jpg",
+//     "name": "Chocolate Blast",
+//     "ingredients": ["Cocoa", "Cream", "Sugar"],
+//     "detail": "Rich chocolate ice cream loaded with deep cocoa flavor.",
+//     "toppings": ["Choco Chips", "Brownie Crumbs"],
+//     "price": 150,
+//     "delivery_charge": 4
+//   },
+//   {
+//     "image": "https://i.pinimg.com/736x/74/30/53/7430533205dd29ba8a2c6b67b61e9280.jpg",
+//     "name": "Strawberry Swirl",
+//     "ingredients": ["Strawberries", "Milk", "Sugar"],
+//     "detail": "Sweet strawberry ice cream with a refreshing fruity swirl.",
+//     "toppings": ["Strawberry Sauce", "Whipped Cream"],
+//     "price": 140,
+//     "delivery_charge": 2
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/c0/d7/a8/c0d7a8656023bb6a45d6925c7c7f7017.jpg",
+//     "name": "Mango Magic",
+//     "ingredients": ["Mango Pulp", "Cream", "Sugar"],
+//     "detail": "Tropical mango ice cream made from ripe juicy mangoes.",
+//     "toppings": ["Mango Cubes", "Coconut Flakes"],
+//     "price": 160,
+//     "delivery_charge": 3
+//   },
+//   {
+//     "image": "https://i.pinimg.com/736x/51/37/f1/5137f120bc186f9c3f55d3aaa4839124.jpg",
+//     "name": "Cookies & Cream",
+//     "ingredients": ["Milk", "Oreo Cookies", "Cream"],
+//     "detail": "Smooth vanilla base mixed with crunchy cookie chunks.",
+//     "toppings": ["Crushed Cookies", "Chocolate Drizzle"],
+//     "price": 170,
+//     "delivery_charge": 8
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/ad/3a/3b/ad3a3b1f682dd17ba8b39715e050a8d8.jpg",
+//     "name": "Pista Paradise",
+//     "ingredients": ["Pistachios", "Milk", "Sugar"],
+//     "detail": "Traditional pistachio ice cream with nutty richness.",
+//     "toppings": ["Pista Crumbles", "Honey Drizzle"],
+//     "price": 180,
+//     "delivery_charge": 9
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/c7/bc/2b/c7bc2b30fef8ef5f533a49d726e22412.jpg",
+//     "name": "Butterscotch Crunch",
+//     "ingredients": ["Butterscotch Syrup", "Milk", "Cream"],
+//     "detail": "Creamy butterscotch ice cream with crunchy caramel bits.",
+//     "toppings": ["Caramel Sauce", "Butterscotch Chips"],
+//     "price": 160,
+//     "delivery_charge": 5
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/e8/87/94/e8879454df5e329b2ca283ab863c42b7.jpg",
+//     "name": "Blackcurrant Bliss",
+//     "ingredients": ["Blackcurrant", "Milk", "Sugar"],
+//     "detail": "Tangy and sweet blackcurrant ice cream with vibrant flavor.",
+//     "toppings": ["Berry Sauce", "Mint Leaves"],
+//     "price": 155,
+//     "delivery_charge": 8
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/7f/5f/f5/7f5ff57fee4db5125ed4c9149ae1ca96.jpg",
+//     "name": "Coffee Caramel",
+//     "ingredients": ["Coffee", "Cream", "Sugar"],
+//     "detail": "Bold coffee ice cream blended with smooth caramel sweetness.",
+//     "toppings": ["Caramel Drizzle", "Choco Chips"],
+//     "price": 175,
+//     "delivery_charge": 6
+//   },
+//   {
+//     "image": "https://i.pinimg.com/1200x/22/48/55/22485538f9c160fb0b5bac0cb47ffda6.jpg",
+//     "name": "Blueberry Dream",
+//     "ingredients": ["Blueberries", "Milk", "Sugar"],
+//     "detail": "Refreshing blueberry ice cream with natural fruity taste.",
+//     "toppings": ["Blueberry Sauce", "Whipped Cream"],
+//     "price": 165,
+//     "delivery_charge": 4
+//   }
+// ]
   return (
     <>
         {/* <section className='flex flex-wrap gap-6 px-8 py-4 justify-center items-center'>
@@ -256,18 +256,18 @@ const icecream_data = [
             })}
         </section> */}
 
-       {/* <section className="flex item-center flex-wrap py-4 px-6 justify-center gap-5">
+       <section className="flex item-center flex-wrap py-4 px-6 justify-center gap-5">
           {product.map(function (data) {
               return <ProductCard data={data} />;
           })}
-       </section> */}
+       </section>
 
         
-           <section className="flex item-center flex-wrap py-4 px-6 justify-center gap-5">
+           {/* <section className="flex item-center flex-wrap py-4 px-6 justify-center gap-5">
           {icecream_data.map(function (data) {
               return <IceCreamCard data={data} />;
           })}
-       </section> 
+       </section>  */}
 
           
        
